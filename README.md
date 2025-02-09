@@ -1,64 +1,90 @@
-# 📺 Netflix Analysis - Predicting Movie Success 🎬
+📊 Netflix Analysis & Prediction
+
+Este repositorio contiene un análisis exploratorio y predictivo sobre películas y series de Netflix, utilizando Python y modelos de machine learning.
 
 📌 Descripción del Proyecto
 
-Este proyecto tiene como objetivo analizar datos de películas en Netflix para identificar patrones clave que determinan el éxito de una película y predecir su rendimiento basado en diversas características.
-
-Utilizamos técnicas de Machine Learning y análisis de datos para encontrar relaciones entre variables como presupuesto, popularidad, cantidad de votos, géneros y más.
+El objetivo de este proyecto es analizar las características de las películas y series en Netflix, identificar patrones en los datos y construir un modelo de predicción basado en Random Forest para estimar variables clave, como la popularidad de una película.
 
 📂 Estructura del Repositorio
 
-Netflix_Analysis/
-│── 📊 Netflix_Analysis.ipynb  # Notebook principal con el análisis y modelo predictivo
-│── 📁 data/  # Directorio de datasets (NO incluido en el repositorio)
-│── 📁 Graficos/  # Visualizaciones y gráficos generados
-│── 📁 Linkedin Post/  # Contenido preparado para publicaciones en LinkedIn
-│── 📄 README.md  # Este archivo
+📁 Netflix_Analysis
+│── 📁 data               # Datos (no incluidos en el repositorio, disponible en Kaggle)
+│── 📁 Graficos           # Visualizaciones generadas
+│── 📁 Linkedin Post      # Recursos para compartir en redes
+│── 📄 Netflix_Analysis.ipynb  # Notebook con el análisis completo
+│── 📄 README.md          # Este archivo
 
-📊 Dataset Utilizado
+🔗 Dataset
 
-Los datos utilizados en este proyecto provienen del dataset público de Kaggle:
-🔗 Movie Dataset - Kaggle
+Los datos utilizados en este proyecto provienen de Kaggle. Puedes encontrarlos aquí:
+👉 Netflix Movies and TV Shows Dataset
 
-Para reproducir el análisis, descarga el dataset desde Kaggle y guárdalo en la carpeta data/.
+🛠 Herramientas y Tecnologías Utilizadas
 
-🔧 Tecnologías Utilizadas
+✅ Python - Lenguaje de programación principal
+✅ Pandas - Manipulación y limpieza de datos
+✅ Matplotlib & Seaborn - Visualización de datos
+✅ Scikit-Learn - Modelado y optimización de hiperparámetros con Random Forest
+✅ Git & GitHub - Control de versiones y almacenamiento del proyecto
 
-🐍 Python
+🔍 Metodología
 
-📊 Pandas, NumPy, Matplotlib, Seaborn
+Exploración de Datos
 
-🤖 Scikit-Learn (Random Forest, GridSearchCV, Regresión)
+Carga y limpieza de datos
 
-📡 SQL (para consultas adicionales)
+Análisis de valores faltantes
 
-🎨 Power BI (para visualización avanzada)
+Transformación de variables categóricas
 
-📈 Metodología
+Visualización de Datos
 
-Carga y limpieza de datos 🧹
+Distribución de características principales
 
-Exploración y visualización de datos 📊
+Correlaciones entre variables
 
-Feature Engineering 🛠️
+Importancia de características en Random Forest
 
-Entrenamiento de Modelos 🤖
+Modelado Predictivo
 
-Evaluación del rendimiento 📉
+Implementación de un modelo de Random Forest Regressor
 
-Predicciones y conclusiones 🎯
+Ajuste de hiperparámetros con GridSearchCV y RandomizedSearchCV
 
-📌 Principales Hallazgos
+Evaluación del modelo con métricas MAE, MSE y R²
 
-✔️ La cantidad de votos (vote_count) es el factor más relevante para predecir el éxito.
-✔️ El presupuesto (budget) y la popularidad (popularity) también tienen un impacto significativo.
-✔️ El género y el país de producción pueden influir en la recaudación.
-✔️ Un modelo Random Forest con hiperparámetros optimizados logró una buena precisión en la predicción de éxito de películas.
+Exportación de Resultados
 
-📢 Contacto
+Generación de gráficos
 
-Si te gustó el proyecto o tienes sugerencias, ¡conectemos! 🚀
-📧 juanfeijoo98@gmail.com
-🔗 LinkedIn
+Exportación de datos procesados para Power BI
 
-✨ Si encuentras útil este repositorio, no olvides darle una ⭐ en GitHub. 🚀
+📈 Principales Hallazgos
+
+El número de votos (vote_count) y el presupuesto (budget) son las variables más influyentes en la predicción de la popularidad de una película.
+
+Las películas con mayor presupuesto tienden a recibir más votos y popularidad.
+
+El género y el país de origen también tienen un impacto en la popularidad.
+
+El modelo de Random Forest optimizado logró un R² de aproximadamente 0.52, lo que indica una moderada capacidad predictiva.
+
+🚀 Cómo Ejecutarlo
+
+Clona este repositorio:
+
+git clone https://github.com/juanfeijoo98/Netflix-Analysis-Predictio.git
+
+Instala las dependencias necesarias:
+
+pip install -r requirements.txt  # (si tienes un archivo de requerimientos)
+
+Abre y ejecuta el notebook Netflix_Analysis.ipynb
+
+🏆 Contribuciones
+
+Si tienes sugerencias o mejoras, siéntete libre de abrir un Issue o hacer un Pull Request. ¡Tu aporte es bienvenido! 😊
+
+📩 Contacto: LinkedIn
+
