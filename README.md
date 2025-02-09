@@ -1,90 +1,74 @@
 # 📊 Netflix Analysis & Prediction
 
-Este repositorio contiene un análisis exploratorio y predictivo sobre películas y series de Netflix, utilizando Python y modelos de machine learning.
+This repository contains an exploratory and predictive analysis of Netflix movies and TV shows using Python and machine learning models.
 
-📌 Descripción del Proyecto
+📌 Project Description
 
-El objetivo de este proyecto es analizar las características de las películas y series en Netflix, identificar patrones en los datos y construir un modelo de predicción basado en Random Forest para estimar variables clave, como la popularidad de una película.
+The objective of this project is to analyze the characteristics of movies and TV shows on Netflix, identify patterns in the data, and build a predictive model using Random Forest to estimate key variables, such as a movie’s popularity.
 
-📂 Estructura del Repositorio
+📂 Repository Structure
 
 📁 Netflix_Analysis
-│── 📁 data               # Datos (no incluidos en el repositorio, disponible en Kaggle)
-│── 📁 Graficos           # Visualizaciones generadas
-│── 📁 Linkedin Post      # Recursos para compartir en redes
-│── 📄 Netflix_Analysis.ipynb  # Notebook con el análisis completo
-│── 📄 README.md          # Este archivo
+│── 📁 data               # Data (not included in the repository, available on Kaggle)
+│── 📁 Graficos           # Generated visualizations
+│── 📁 Linkedin Post      # Resources for sharing on social media
+│── 📄 Netflix_Analysis.ipynb  # Notebook with the complete analysis
+│── 📄 README.md          # This file
 
 🔗 Dataset
 
-Los datos utilizados en este proyecto provienen de Kaggle. Puedes encontrarlos aquí:
+The data used in this project comes from Kaggle. You can find it here:
 👉 Netflix Movies and TV Shows Dataset
 
-🛠 Herramientas y Tecnologías Utilizadas
+🛠 Tools & Technologies Used
 
-✅ Python - Lenguaje de programación principal
-✅ Pandas - Manipulación y limpieza de datos
-✅ Matplotlib & Seaborn - Visualización de datos
-✅ Scikit-Learn - Modelado y optimización de hiperparámetros con Random Forest
-✅ Git & GitHub - Control de versiones y almacenamiento del proyecto
+✅ Python - Main programming language
+✅ Pandas - Data manipulation and cleaning
+✅ Matplotlib & Seaborn - Data visualization
+✅ Scikit-Learn - Modeling and hyperparameter tuning with Random Forest
+✅ Git & GitHub - Version control and project storage
 
-🔍 Metodología
+🔍 Methodology
 
-Exploración de Datos
+Data Exploration
+	•	Data loading and cleaning
+	•	Handling missing values
+	•	Transforming categorical variables
 
-Carga y limpieza de datos
+Data Visualization
+	•	Distribution of key features
+	•	Correlations between variables
+	•	Feature importance in Random Forest
 
-Análisis de valores faltantes
+Predictive Modeling
+	•	Implementation of a Random Forest Regressor model
+	•	Hyperparameter tuning with GridSearchCV and RandomizedSearchCV
+	•	Model evaluation using MAE, MSE, and R²
 
-Transformación de variables categóricas
+Results Export
+	•	Generating visualizations
+	•	Exporting processed data for Power BI
 
-Visualización de Datos
+📈 Key Findings
+	•	Vote count (vote_count) and budget (budget) are the most influential variables in predicting a movie’s popularity.
+	•	Movies with higher budgets tend to receive more votes and popularity.
+	•	Genre and country of origin also impact popularity.
+	•	The optimized Random Forest model achieved an R² of approximately 0.52, indicating moderate predictive capability.
 
-Distribución de características principales
+🚀 How to Run
 
-Correlaciones entre variables
+1️⃣ Clone this repository:
 
-Importancia de características en Random Forest
+git clone https://github.com/juanfeijoo98/Netflix-Analysis-Prediction.git
 
-Modelado Predictivo
+2️⃣ Install the necessary dependencies:
 
-Implementación de un modelo de Random Forest Regressor
+pip install -r requirements.txt  # (if you have a requirements file)
 
-Ajuste de hiperparámetros con GridSearchCV y RandomizedSearchCV
+3️⃣ Open and run the Netflix_Analysis.ipynb notebook.
 
-Evaluación del modelo con métricas MAE, MSE y R²
+🏆 Contributions
 
-Exportación de Resultados
+If you have suggestions or improvements, feel free to open an Issue or submit a Pull Request. Your contribution is welcome! 😊
 
-Generación de gráficos
-
-Exportación de datos procesados para Power BI
-
-📈 Principales Hallazgos
-
-El número de votos (vote_count) y el presupuesto (budget) son las variables más influyentes en la predicción de la popularidad de una película.
-
-Las películas con mayor presupuesto tienden a recibir más votos y popularidad.
-
-El género y el país de origen también tienen un impacto en la popularidad.
-
-El modelo de Random Forest optimizado logró un R² de aproximadamente 0.52, lo que indica una moderada capacidad predictiva.
-
-🚀 Cómo Ejecutarlo
-
-Clona este repositorio:
-
-git clone https://github.com/juanfeijoo98/Netflix-Analysis-Predictio.git
-
-Instala las dependencias necesarias:
-
-pip install -r requirements.txt  # (si tienes un archivo de requerimientos)
-
-Abre y ejecuta el notebook Netflix_Analysis.ipynb
-
-🏆 Contribuciones
-
-Si tienes sugerencias o mejoras, siéntete libre de abrir un Issue o hacer un Pull Request. ¡Tu aporte es bienvenido! 😊
-
-📩 Contacto: LinkedIn
-
+📩 Contact: LinkedIn
