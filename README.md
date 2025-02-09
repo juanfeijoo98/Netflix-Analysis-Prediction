@@ -1,4 +1,4 @@
-📊 Netflix Analysis & Prediction
+# 📊 Netflix Analysis & Prediction
 
 Este repositorio contiene un análisis exploratorio y predictivo sobre películas y series de Netflix, utilizando Python y modelos de machine learning.
 
